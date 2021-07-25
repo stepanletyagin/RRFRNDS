@@ -7,15 +7,14 @@ int main()
 {
 
     cout << WHITE <<"Number of members:" << RESET;
-    int N;
     cin >> N;
     cout << endl;
 
-    vector<vector<int>> adjacency_matrix = fill_matrix(N);
+    vector<vector<VALUE_TYPE>> adjacency_matrix = fill_matrix(N);
     cout << GREEN <<"Adjacency matrix: " << RESET << endl;
     print_matrix(adjacency_matrix, N);
 
-    vector<vector<int>> floyd_warshall_matrix = floyd_warshall(adjacency_matrix, N);
+    vector<vector<VALUE_TYPE>> floyd_warshall_matrix = floyd_warshall(adjacency_matrix, N);
     cout << GREEN << "Floyd-Warshall matrix: " << RESET << endl;
     print_matrix(floyd_warshall_matrix, N);
 

@@ -3,8 +3,8 @@
 
 #include "main.h"
 
-void print_matrix(vector<vector<int>> matrix, int N);
+void print_matrix(vector<vector<VALUE_TYPE>> matrix, VALUE_TYPE N);
 
-vector<vector<int>> fill_matrix(int N);
+vector<vector<VALUE_TYPE>> fill_matrix(VALUE_TYPE N);
 
 #endif

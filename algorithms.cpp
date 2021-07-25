@@ -1,9 +1,9 @@
 #include "algorithms.h"
 #include "main.h"
 
-vector<vector<int>> floyd_warshall(vector<vector<int>> &adjacency_matrix, int n)
+vector<vector<VALUE_TYPE>> floyd_warshall(vector<vector<VALUE_TYPE>> &adjacency_matrix, VALUE_TYPE n)
 {
-    vector<vector<int>> FW_matrix = adjacency_matrix;
+    vector<vector<VALUE_TYPE>> FW_matrix = adjacency_matrix;
 
     for (int k = 0; k < n; k++)
     {

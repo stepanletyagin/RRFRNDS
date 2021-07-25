@@ -3,6 +3,6 @@
 
 #include "main.h"
 
-vector<vector<int>> floyd_warshall(vector<vector<int>> &adjacency_matrix, int n);
+vector<vector<VALUE_TYPE>> floyd_warshall(vector<vector<VALUE_TYPE>> &adjacency_matrix, VALUE_TYPE n);
 
 #endif

@@ -6,6 +6,9 @@
 
 using namespace std;
 
+#define VALUE_TYPE int
+VALUE_TYPE N; // Graph size
+
 /* COLORS */
 #define RESET   "\033[0m"
 #define RED     "\033[31m"      /* Red */

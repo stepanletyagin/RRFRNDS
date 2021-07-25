@@ -1,9 +1,9 @@
 #include "RRFRNDS.h"
 #include "main.h"
 
-int recom_num(vector<vector<int>> FU_matrix, int N)
+int recom_num(vector<vector<VALUE_TYPE>> FU_matrix, VALUE_TYPE N)
 {
-    int num = 0;
+    VALUE_TYPE num = 0;
 
     for (int i = 0; i < N; i++)
     {

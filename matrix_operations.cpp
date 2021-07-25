@@ -1,6 +1,6 @@
 #include "matrix_operations.h"
 
-void print_matrix(vector<vector<int>> matrix, int N)
+void print_matrix(vector<vector<VALUE_TYPE>> matrix, VALUE_TYPE N)
 {
     for (int i = 0; i < N; ++i)
     {
@@ -12,14 +12,14 @@ void print_matrix(vector<vector<int>> matrix, int N)
     }
 }
 
-vector<vector<int>> fill_matrix(int N)
+vector<vector<int>> fill_matrix(VALUE_TYPE N)
 {
-    vector<vector<int>> matrix;
-    vector<int> row;
+    vector<vector<VALUE_TYPE>> matrix;
+    vector<VALUE_TYPE> row;
     cout << "Type array:" << endl;
 
     unsigned int temp = 0;
-    int num;
+    VALUE_TYPE num;
 
     while(temp != N)
     {

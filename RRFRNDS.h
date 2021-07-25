@@ -3,7 +3,7 @@
 
 #include "main.h"
 
-int recom_num(vector<vector<int>> FU_matrix, int N);
+int recom_num(vector<vector<VALUE_TYPE>> FU_matrix, VALUE_TYPE N);
 
 #endif
 
