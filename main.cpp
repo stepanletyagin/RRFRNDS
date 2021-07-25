@@ -5,7 +5,7 @@
 
 int main()
 {
-
+    VALUE_TYPE N; // Graph size
     cout << WHITE <<"Number of members:" << RESET;
     cin >> N;
     cout << endl;
